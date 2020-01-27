@@ -3,6 +3,26 @@
 
 ## Steps
 
+### Step 0 - verify or get info about OMFListener
+
+To verify if OMFListener, or just get information about it, open a web browser page with this URL: http://localhost:6008. 
+
+The page has all the following information:
+
+* Root in AF
+* Device name
+* Version 
+
+Sample screenshot below:
+
+![](https://academichub.blob.core.windows.net/images/omflistener-stats-christian-012720.png)
+
+
+Note: to shutdown OMFListener cleanly, go to http://localhost:6008/shutdown. Username and password are `admin` and `secret` respectively.  
+
+You can check the state of all OMFListeners at https://academicpi.osisoft.com/PIVision/#/Displays/137/Hub_Listeners_All (Hub PI Vision account needed for access). If a given OMFListener is green with active heartbeat already, or becomes green just after starting it, you can skip the steps below which are for repair. The date under colored status is the last time a health update has been received. 
+
+
 ### Step 1 - install hub toolkit
 
 If toolkit 1.5.3.37 (latest) is installed, skip to Step 3. Otherwise go to https://academic.osisoft.com/toolkit, download and install. 
