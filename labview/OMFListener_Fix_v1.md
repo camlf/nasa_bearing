@@ -41,4 +41,9 @@ In the field asking for a token, enter the relevant token then click 'Submit'. I
 
 At this point, OMFListener statistics web page should show up with updates every 5 seconds. 
 
+### Step 7 - check status of OMFListener health
+
+Go to https://academicpi.osisoft.com/PIVision/#/Displays/137/Hub_Listeners_All and find OMFListener device ID shown on the statistics page in Step 6. 
+
+--------------------------------- end --------------------------------------------
 
